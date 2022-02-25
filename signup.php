@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'
+include_once 'header.php';
 ?>
 
     <h2>Signup here</h2>

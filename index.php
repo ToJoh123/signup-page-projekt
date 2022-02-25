@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'
+include_once 'header.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,8 +11,8 @@ include_once 'header.php'
   </head>
   <body>
   <?php 
-    if (isset($_SESSION[useruid])){
-      echo "<p>Hello there " . $_SESSION[useruid] . "</p>";
+    if (isset($_SESSION['useruid'])){
+      echo "<p>Hello there " . $_SESSION['useruid'] . "</p>";
     }
     ?>
   </body>

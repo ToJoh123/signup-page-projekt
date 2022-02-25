@@ -1,5 +1,5 @@
 <?php
-include_once 'header.php'
+include_once 'header.php';
 ?>
     <section class="signup-form">
       <form action="/projekt/Inlämning Loginpage/includes/login.inc.php" method="post">
